@@ -7,13 +7,13 @@ plugins {
 }
 
 android {
-    compileSdkVersion 33 ]
-
-    namespace "com.tfliteflutter.tflite_flutter_helper" 
+    compileSdkVersion 33 
     
+    namespace "com.tfliteflutter.tflite_flutter_helper" 
+
     defaultConfig {
         minSdkVersion 21 
-        targetSdkVersion 33 
+        targetSdkVersion 33
     }
 
     sourceSets {
@@ -27,7 +27,3 @@ dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib:1.8.21" 
 }
 
-
-dependencies {
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-}
